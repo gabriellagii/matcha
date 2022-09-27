@@ -1,5 +1,0 @@
-Esto es tan solo una eba para ver el funcionamiento del archivo .gitignore
-usto es tan solo una eba para ver el funcionamiento del archivo .gitignore
-Para ignorar archivos txt 
-no me sale la actidad de hoy
-yo solo se que no se nada
