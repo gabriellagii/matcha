@@ -14,12 +14,15 @@ button {
     background-color: #025157;
     color: #fff;
 }
-.header{
-  margin: 40px 20px 0px;
+header{
+  padding: 20px;
   /*margin-top: 40px;
   margin-left: 20px;
   margin-right: 20px;*/
   font-size: 0px;
+  position: fixed;
+  top: 0;
+  background-color: #fffbf7;
 }
 li{
     display: inline;
@@ -69,4 +72,89 @@ li{
 .main{
     margin-top: 140px;
     text-align: center;
+}
+.vid-pub {
+    display: flex;
+    gap: 12px;
+}
+.video {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.video img {
+    height: 80px;
+    margin-top: 10px;
+}
+.publica {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.publica h3 {
+    font-family: "Alegreya", serif;
+    font-size: 40px;
+    line-height: 48px;
+    color: #025157;
+    margin: 0px;
+}
+.publica > p {
+    font-size: 16px;
+    color: #343434;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+.public p{
+    color: #8b8b8bcc;
+    margin-top: 15px;
+}
+.form-public {
+    height: 55px;
+    /*display: flex;
+    flex-direction: column;*/
+}
+
+.publica > form p {
+    color: #025157;
+    margin-right: 18px;
+}
+.features{
+    background-color: #025157;
+    margin: 120px 0px;
+    display: grid;
+    gap: 30px;
+    /*height: 600px;*/
+    padding: 40px 60px;
+    /*grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);*/
+    grid-template: repeat(2,1fr) / repeat(2,1fr);
+}
+button:hover {
+    cursor: pointer;
+    background-color: blue;
+}
+.feature {
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 12px;
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+}
+.features .feature .content {
+    padding: 20px;
+    flex: 2;
+}
+.img-cont {
+    width: 50px;
+}
+.features .feature .content a {
+    font-size: 16px;
+    color: #67b54b;
+    font-weight: 600;
+    text-decoration: none;
+}
+.features .feature .cont-img {
+    flex: 1;
+    height: 80%;
 }
