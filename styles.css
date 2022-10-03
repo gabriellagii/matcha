@@ -1,3 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@500&display=swap');
+
+h1,h2,h3,h4,h5,h6{
+    font-family: "Alegreya", sans-serif;
+}
+
+body{
+    h1{
+        font-size: 45px;
+    }
+}
+
 html {
     background-color: #fffbf7;
 }
@@ -45,12 +57,15 @@ li{
     width: 50%;
 }
 .navbar{
-    width: 70%;
+    /*width: 70%;*/
     text-align: center;
     font-weight: 500;
 }
 .actions{
-    width: 15%;
+    /*width: 15%;*/
+    display: flex;
+    gap: 12px;
+    align-items: center;
     text-align: right;
     font-weight: 600;
     color: #67b54b;
@@ -92,7 +107,7 @@ li{
     gap: 12px;
 }
 .publica h3 {
-    font-family: "Alegreya", serif;
+    /*font-family: "Alegreya", serif;*/
     font-size: 40px;
     line-height: 48px;
     color: #025157;
@@ -157,4 +172,45 @@ button:hover {
 .features .feature .cont-img {
     flex: 1;
     height: 80%;
+}
+
+@media (max-width: 575px) {
+    .navbar, .actions {
+        display: none;
+    }
+    h1{
+        font-size: 30px;
+    }
+    .main{
+        margin-top: 80px;
+    }
+    .main > img{
+        width: 100%;
+    }
+    .vid-pub{
+        flex-direction: column;
+    }
+    .features{
+        grid-template: repeat(4, 1fr) / 1fr;
+    }
+    .feature > .cont-img{
+        display: none;
+    }
+ 
+}
+
+@media ((min-widt: 576px) and (max-width: 767px)){
+
+}
+
+@media ((min-width: 768px) and (max-width: 991px)) {
+
+}
+
+@media ((min-width: 992px) and (max-width: 1199px)) {
+
+}
+
+@media (min-width: 1200px) {
+
 }
