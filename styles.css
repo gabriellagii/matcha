@@ -144,10 +144,10 @@ li{
     grid-template-rows: repeat(2, 1fr);*/
     grid-template: repeat(2,1fr) / repeat(2,1fr);
 }
-button:hover {
+/* button:hover {
     cursor: pointer;
     background-color: blue;
-}
+} */
 .feature {
     padding: 15px;
     background-color: #fff;
@@ -173,11 +173,51 @@ button:hover {
     flex: 1;
     height: 80%;
 }
+.stories{
+    background-color: #a1d683;
+    padding: 5% 15%;
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+}
+.stories .overview h2{
+    font-size:48px ;
+    line-height: 54px;
+    color: ;
+}
+.stories .overview p{
+    font-size:18px ;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+    color: #343434;
+}
+.stories .overview button{
+    font-size:14px ;
+    padding: 12px 12px 6px 12px;
+    border-radius: 8px;
+    font-weight: 600;
+    margin-left: 0;
+}
+.stories .overview img{
+    width: 500px;
+    max-width: 100%;
+}
+.stories .carousel h4{
+    color: #025157;
+}
+.img-parf{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.img-parf img{
+    width: 50px;
+}
 
 @media (max-width: 575px) {
-    .navbar, .actions {
+    /* .navbar, .actions {
         display: none;
-    }
+    } */
     h1{
         font-size: 30px;
     }
